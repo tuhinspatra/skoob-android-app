@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.armag.mnnitcart0.fragments.BuySellFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_wood_planks"
+        android:scaleType = "centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="80dp">
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:layout_marginBottom="40dp"
+            android:background="@color/Orange"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+        <LinearLayout
+            android:background="@color/Wheat"
+            android:clickable="false"
+            android:id="@+id/sellButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sell"
+                android:textAllCaps="true"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Coming Soon)"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

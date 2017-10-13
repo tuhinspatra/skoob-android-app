@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:id="@+id/item_outer_linearLayout">
+
+    <ImageView
+        android:id="@+id/thumbnail_imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:src="@drawable/ic_001_spinner_of_dots"/>
+    <ProgressBar
+        android:id="@+id/progress_item_showcart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Product Name"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rupee_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:tint="@color/DarkOrange"
+                android:src="@drawable/ic_rupee_indian"/>
+
+            <TextView
+                android:id="@+id/msp_textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="200"
+                android:textColor="@color/DarkOrange"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Move to wishlist"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

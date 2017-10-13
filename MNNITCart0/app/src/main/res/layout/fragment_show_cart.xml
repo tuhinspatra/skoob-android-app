@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.armag.mnnitcart0.fragments.ShowCartFragment">
+
+    <LinearLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/man_with_book_cart" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rupee_indian"
+                android:scaleY="4"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="999"
+                android:textSize="80sp"/>
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/cartListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            tools:listitem="@layout/item_cart_list"
+            android:layout_margin="10dp"
+            android:padding="7dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

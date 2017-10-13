@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Buy" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_remove_shopping_cart_black_24dp"
+            android:title="Sell" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+    </group>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_screen_share_black_24dp"
+                android:title="Sign Out" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

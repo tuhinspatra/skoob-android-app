@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_img_without_text"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/splash"
+        android:layout_width="241dp"
+        android:layout_height="71dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/bg_text_layer" />
+
+</LinearLayout>
+

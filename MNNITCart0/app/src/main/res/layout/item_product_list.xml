@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:background="@color/Wheat"
+    android:id="@+id/item_outer_layout">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/thumbnail_imageView"
+            android:layout_width="80dip"
+            android:layout_height="80dip" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_product_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Product Name"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/rating_ratingBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_product_textView"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/ratingBarStyleSmall"/>
+
+    <ImageView
+        android:id="@+id/rupee_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/msp_textView"
+        android:src="@drawable/ic_rupee_indian"
+        android:layout_below="@id/title_product_textView"
+        android:tint="@color/darkorange"/>
+    <TextView
+        android:id="@+id/msp_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title_product_textView"
+        android:gravity="right"
+        android:text="250"
+        android:layout_marginRight="5dip"
+        android:textSize="25dip"
+        android:textColor="@color/darkorange"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/progress_item_product_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+</RelativeLayout>

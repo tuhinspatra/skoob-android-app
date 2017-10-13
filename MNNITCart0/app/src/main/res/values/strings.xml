@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">skooB</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">Please check your network connection and try again.</string>
+    <string name="unknown_error">Oops! An unknown error occured.</string>
+    <string name="unknown_sign_in_response">Unknown sign in response.</string>
+    <string name="drawer_open">Drawer Openened</string>
+    <string name="drawer_close">Drawer closed</string>
+    <string name="menu">Menu</string>
+    <string-array name="drawer_items_array">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="title_activity_main">skooB</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="splash_screen_below">The e-bookstore of MNNIT</string>
+    <string name="splash_text_center">skooB</string>
+    <string name="about_app_para">skoob is desigend and developed by Oxpecker for Avishkar 2017.
+        Avishkar is the annual TechFest of MNNIT, Allahabad.
+        Oxpecker is a one member team.\nThe app is a simple e-commerce app for exchange of books
+        in the institute using mutual skoins as well as money. Instead of direct money transactions
+        on the fly we seal a deal with the seller and the buyer just needs to pay the money while
+        receiving the book from the seller. Using skoins lets you buy
+        books from the skoins earned through selling used books. This way students can
+        completely avoid the use of money in exchange of books. We infact offer all new customers
+        with 50 skoins! So what are you waiting for, start skoobing!
+
+    </string>
+</resources>

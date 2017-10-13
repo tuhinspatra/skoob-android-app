@@ -1,0 +1,191 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.armag.mnnitcart0.fragments.buy.ItemDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/skoob_it"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="skooB it now!"
+            android:background="@color/Orange"
+            android:drawableLeft="@drawable/ic_assignment_turned_in_black_24dp"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+
+            <Button
+                android:id="@+id/add_cart"
+                android:layout_width="wrap_content"
+
+                android:layout_height="70dp"
+                android:padding="16dp"
+                android:text="Add to cart"
+                android:background="@color/Yellow"
+                android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+                />
+
+            <View
+                android:layout_width="14dp"
+                android:layout_height="0dp" />
+
+
+            <Button
+                android:id="@+id/add_wishlist"
+                android:layout_width="wrap_content"
+                android:background="@color/Yellow"
+                android:layout_height="70dp"
+                android:padding="2dp"
+                android:text="Add to wishlist"
+                android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/description_title"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Description: "
+                    android:textColor="@color/Green"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description_ans"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="This is description placeholder text. This is description placeholder text. This is description placeholder text." />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/copies_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Copies Sold: "
+                    android:textColor="@color/Green"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/copies_ans"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/pages_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="No. of pages: "
+                    android:textColor="@color/Green"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pages_ans"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="513" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/publisher_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Publisher: "
+                    android:textColor="@color/Green"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/publisher_ans"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="Sample Publishing House" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/seller_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Seller: "
+                    android:textColor="@color/Green"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/seller_ans"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="Sample seller" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
