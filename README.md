@@ -1,4 +1,5 @@
 # MMNIT CART
+## NOTE: THIS PROJECT IS INCOMPLETE!
 ## skoob
 A simple Android application for exchange of books.
 
